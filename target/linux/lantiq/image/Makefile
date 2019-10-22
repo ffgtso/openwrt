@@ -489,7 +489,7 @@ define Device/avm_fritz7320
   $(Device/AVM)
   DEVICE_DTS := FRITZ7320
   IMAGE_SIZE := 15744k
-  DEVICE_TITLE := 1&1 HomeServer - FRITZ7320
+  DEVICE_TITLE := AVM FRITZ!Box 7320
   DEVICE_PACKAGES := kmod-ath9k kmod-owl-loader wpad-mini \
 	kmod-ltq-adsl-ar9-mei kmod-ltq-adsl-ar9 \
 	kmod-ltq-adsl-ar9-fw-b kmod-ltq-atm-ar9 \
@@ -629,7 +629,7 @@ define Device/avm_fritz7360sl
   $(Device/AVM)
   IMAGE_SIZE := 15744k
   DEVICE_DTS := FRITZ7360SL
-  DEVICE_TITLE := 1&1 HomeServer - FRITZ7360SL
+  DEVICE_TITLE := AVM FRITZ!Box 7360 SL
   DEVICE_PACKAGES := kmod-ath9k kmod-owl-loader wpad-mini kmod-usb-dwc2
   SUPPORTED_DEVICES += FRITZ7360SL
 endef
