@@ -6,7 +6,7 @@
 
 / {
 	compatible = "avm,fritz7360sl", "lantiq,xway", "lantiq,vr9";
-	model = "AVM FRITZ!Box 7360 SL";
+	model = "1&1 HomeServer";
 
 	chosen {
 		bootargs = "console=ttyLTQ0,115200";
